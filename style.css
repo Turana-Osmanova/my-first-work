@@ -1,0 +1,23 @@
+.student {
+    background: black;
+    color: white;
+    text-align: center;
+}
+.yours {
+    background: beige;
+    margin-top: 0;
+    margin: 15px,15px;
+   
+}
+.contact {
+    text-align: right;
+   
+}
+h2{
+    text-align: left;
+}
+a:link {color: red;}
+
+.sekil{
+    color: red;
+}
