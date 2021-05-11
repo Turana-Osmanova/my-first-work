@@ -12,9 +12,8 @@ header {
     display: inline-block;
     color: white;
     text-align: center;
-    width: 30%;
-    margin: 0px;
-    background-origin: padding-box;
+    width: 33.3333%;
+    box-sizing: border-box;
 }
 
 .section1 {

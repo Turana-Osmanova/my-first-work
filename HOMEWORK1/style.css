@@ -1,0 +1,117 @@
+body{
+    box-sizing: border-box;
+    background: url(../img1/concrete_seamless.png);
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+.clearfix::after{
+content: "";
+clear: both;
+display: block;
+}
+.div1{
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    margin-left: 180px;
+    margin-bottom: 0px;
+
+}
+header {
+  border-bottom: 2px solid #ccc;
+   background: #fff;
+}
+nav{
+    float:right;
+    display: inline-block;
+    width: 40%;
+    height: 90px;
+    text-align: center;
+}
+a::after {
+    content: "|";
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #999;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.cat{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 25px;
+}
+.div2 {
+    background: white;
+    width: 60%;
+   
+    float: left;
+}
+.aboutmeyazisi{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #4aaaa5;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px
+}
+hr {
+    border-color: #ccc;
+    display: block;
+}
+aside{
+    float: right;
+    width: 35%;
+    background: white;
+}
+main {
+    margin: 60px;
+    padding: 30px;
+}
+.lorem1{
+    padding: 30px;
+}
+.git{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 5px;
+}
+.section1{
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+  
+}
+footer {
+    border-top:8px solid #4aaaa5;;
+    clear: both;
+    display: block;
+    height: 70px;
+    margin-top: 60px;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+ 
+}
+.copyright {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
