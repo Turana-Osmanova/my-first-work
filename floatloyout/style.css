@@ -1,0 +1,68 @@
+header {
+    background: #ccc;
+    text-align: center;
+    padding: 30px;
+    margin: 10px 0px;
+}
+
+.section1,
+.section2,
+.section3 {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin: 0px;
+    background-origin: padding-box;
+}
+
+.section1 {
+    background: #666;
+    float: left;
+}
+
+.section2 {
+    background: #888;
+    display: block;
+    float: left;
+}
+
+.section3 {
+    background: #666;
+    float: left
+}
+
+aside {
+    border-width: 30%;
+    background: #fff;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    padding: 60px;
+    margin: 5px;
+}
+
+.section4 {
+    margin-top: 20px;
+    background: #eee;
+    padding: 50px;
+    text-align: center;
+    clear: both;
+}
+
+div {
+    margin-top: 10px;
+    background: #6ea3da;
+    text-align: center;
+    padding: 30px;
+    margin-left: 0px;
+}
+
+footer {
+    background: #ccc;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+
+}

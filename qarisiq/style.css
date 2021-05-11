@@ -1,23 +1,49 @@
-body{
-    background: gray;
-}
-
-.student {
+h1 {
     background: black;
-    color: white;
+    color: beige;
     text-align: center;
+    padding: 15px;
+    margin-top: 0px;
 }
-.yours {
+h2 {
+    text-align: left;
+    padding: 20px;
+   
+}
+.div1 {
     background: beige;
-    margin-top: 0;
-    margin: 15px,15px;
-   
+    margin-top: 0px;
+    clear: both;
+    display: inline-block;
 }
-.contact {
-    text-align: right;
-   
+.imgage1 {
+    width: 20%;
+    margin-left: 20px;
+   float: left;
 }
-
-
-a:link {color: red;}
-
+.image2 {
+width: 25%;
+padding: 10px;
+}
+#lorem{
+    padding: 15px;
+    width: 33%;
+    float: left;
+    text-align: left;
+    margin-top: 0px;
+}
+a {
+    color: red;
+}
+.first{
+    float: left;
+    width: 70%;
+}
+.second {
+    float: left;
+}
+.novbeti{
+    margin: 40px;
+    display: inline-block;
+    color: blue;
+}
