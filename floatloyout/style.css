@@ -4,7 +4,11 @@ header {
     padding: 30px;
     margin: 10px 0px;
 }
-
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+    }
 .section1,
 .section2,
 .section3 {
